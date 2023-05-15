@@ -78,8 +78,8 @@ Peer 1 is establishing a connection with Peer 3
 Peer 3 accepted connection with Peer 1
 Peer 3 is now connected to Peer 1
 Peer 1 is now connected to Peer 3
-Peer 2 sent a message to Peer 1: Hello
-Peer 1 sent a message to Peer 2: Hi there
+Peer 2 received a message from Peer 1: Hello
+Peer 1 received a message from Peer 2: Hi there
 Peer 2 is not connected to Peer 3
 ```
 

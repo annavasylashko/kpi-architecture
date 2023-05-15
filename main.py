@@ -29,7 +29,7 @@ class Peer:
 
     def receive_message(self, peer, message):
         if peer in self.peers:
-            print(f"{self.name} sent a message to {peer.name}: {message}")
+            print(f"{self.name} received a message from {peer.name}: {message}")
             # Send the message to the specified peer over the established connection
         else:
             print(f"{peer.name} is not connected to {self.name}")
