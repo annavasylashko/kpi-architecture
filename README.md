@@ -41,7 +41,7 @@ The implementation consists of the following files:
 
 ## Usage
 
-To run the example and see the results, execute the following command in the terminal:
+To `run the example` and see the results, execute the following command in the terminal:
 
 ```zsh
 python3 main.py
@@ -55,6 +55,12 @@ The event is then handled by the subscribed components, and they print messages 
 
 *Output:*
 ```zsh
+% python3 main.py
 Component A handling event: ('Hello',) {'name': 'John'}
 Component B handling event: ('Hello',) {'name': 'John'}
+```
+
+To `run tests`, execute the following command:
+```zsh
+python3 test.py
 ```
