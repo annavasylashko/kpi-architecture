@@ -84,3 +84,9 @@ Peer 2 is not connected to Peer 3
 ```
 
 This example demonstrates the exchange of messages between the connected peers. Each peer receives messages from other connected peers, allowing for direct communication and interaction.
+
+To `run tests`, execute the following command:
+
+```zsh
+python3 test.py
+```
