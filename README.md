@@ -41,6 +41,12 @@ python3 main.py
 
 The script will generate a list of numbers and calculate their squares using the Master-Slave pattern. The calculated squares will be printed as the output.
 
+*Output*:
+```zsh
+% python3 main.py 
+[1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+```
+
 To `run the tests`, execute the following command:
 
 ```zsh
