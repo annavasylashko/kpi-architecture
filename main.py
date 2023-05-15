@@ -64,16 +64,17 @@ class Controller:
         result_viewer = ResultViewer(self.blackboard)
         result_viewer.display_result()
 
-# Usage example
-blackboard = Blackboard()
-controller = Controller(blackboard)
+if __name__ == "__main__":
+    # Usage example
+    blackboard = Blackboard()
+    controller = Controller(blackboard)
 
-text_extractor = TextExtractor(blackboard)
-sentiment_analyzer = SentimentAnalyzer(blackboard)
+    text_extractor = TextExtractor(blackboard)
+    sentiment_analyzer = SentimentAnalyzer(blackboard)
 
-controller.add_knowledge_source(text_extractor)
-controller.add_knowledge_source(sentiment_analyzer)
+    controller.add_knowledge_source(text_extractor)
+    controller.add_knowledge_source(sentiment_analyzer)
 
-social_media_data = "I'm feeling great today! It's a beautiful sunny day."
+    social_media_data = "I'm feeling great today! It's a beautiful sunny day."
 
-controller.process_social_media_data(social_media_data)
+    controller.process_social_media_data(social_media_data)
