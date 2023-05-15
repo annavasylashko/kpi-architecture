@@ -80,4 +80,8 @@ There is following `expression`:
 Result: 17
 ```
 
+To `run the tests`, execute the `test.py` file:
 
+```zsh
+python3 test.py
+```
