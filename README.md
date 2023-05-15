@@ -42,7 +42,7 @@ The implementation consists of the following files:
 
 ## Usage
 
-To run the example and see the results, you can execute the following command in the terminal:
+To `run the example` and see the results, you can execute the following command in the terminal:
 
 ```zsh
 python3 main.py
@@ -54,4 +54,10 @@ The `main.py` script demonstrates the usage of the Pipe-Filter pattern with the 
 ```zsh
 % python3 main.py
 !DLROW ,OLLEH
+```
+
+To `run tests`, execute the following command:
+
+```zsh
+python3 test.py
 ```
