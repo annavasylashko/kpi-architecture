@@ -38,11 +38,13 @@ The Blackboard pattern is a computational design pattern that enables the collab
 
 ## Example
 
-`**main.py**` demonstrates how Blackboard pattern can be applied to perform sentiment analysis on a given text. The sentiment analysis system comprises the following components:
+**`main.py`** demonstrates how Blackboard pattern can be applied to perform sentiment analysis on a given text. The sentiment analysis system comprises the following components:
 
 - Blackboard: The blackboard serves as the shared data structure that holds the intermediate and final results of the sentiment analysis.
 
-- Knowledge Sources: Tokenizer and SentimentAnalyzer. Each knowledge source analyzes a specific aspect of the sentiment analysis process and contributes its partial knowledge to the blackboard. *Note: Sentiment Analyzer in this implementation is a mock, just for viewing purposes.*
+- Knowledge Sources: Tokenizer and SentimentAnalyzer. Each knowledge source analyzes a specific aspect of the sentiment analysis process and contributes its partial knowledge to the blackboard. 
+
+    *Note: Sentiment Analyzer in this implementation is a mock, just for viewing purposes.*
 
 - Controller: The controller is responsible for managing the overall sentiment analysis workflow. It coordinates the execution of the knowledge sources, updates the blackboard with partial results, and retrieves the final sentiment score from the blackboard.
 
