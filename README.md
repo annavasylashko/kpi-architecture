@@ -42,7 +42,7 @@ In this repository, you will find the example that demonstrate the basic impleme
 
 1. Run the server:
     ```zsh
-    python3 server/server.py
+    python3 server
     ```
 2. Run the client:
     ```zsh
@@ -64,4 +64,16 @@ Response: Message sent
 Updated messages:
 - New message
 - New message
+```
+
+## Testing
+
+To `run server tests`, execute the following command:
+```zsh
+python3 server/tests/test_server.py
+```
+
+To `run client tests`, execute the following command:
+```zsh
+python3 client/tests/test_client.py
 ```
