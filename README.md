@@ -29,17 +29,17 @@ The user interface allows users to interact with the application, and the change
 
 ## Components
 
-- Model
+- **Model:**
     
-    The Model represents the data and business logic of the application. It encapsulates the core functionality and maintains the state of the application. In this project, the user.py file represents the Model and defines the User class with its attributes and methods.
+    The Model represents the data and business logic of the application. It encapsulates the core functionality and maintains the state of the application. In this project, the `user.py` file represents the Model and defines the User class with its attributes and methods.
 
-- View
+- **View:**
 
-    The View is responsible for presenting the data to the users and rendering the user interface. It provides a visual representation of the Model's state. In this project, the user_view.py file represents the View and handles the console-based user interface for displaying user information.
+    The View is responsible for presenting the data to the users and rendering the user interface. It provides a visual representation of the Model's state. In this project, the `user_view.py` file represents the View and handles the console-based user interface for displaying user information.
 
-- Controller
+- **Controller:**
 
-    The Controller acts as an intermediary between the Model and the View. It receives user input from the View, updates the Model accordingly, and triggers the necessary updates in the View to reflect the changes. In this project, the user_controller.py file represents the Controller and manages the interactions between the Model and the View.
+    The Controller acts as an intermediary between the Model and the View. It receives user input from the View, updates the Model accordingly, and triggers the necessary updates in the View to reflect the changes. In this project, the `user_controller.py` file represents the Controller and manages the interactions between the Model and the View.
 
 ## Usage
 To run the application, execute the `main.py` file:
