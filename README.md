@@ -49,7 +49,7 @@ In this repository, you will find the example that demonstrate the basic impleme
     python3 client
     ```
 
-Output:
+*Output*:
 ```zsh
 % python3 client
 Current messages:
