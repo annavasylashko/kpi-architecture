@@ -64,3 +64,9 @@ Enter a command (update, display, exit): display
 User: Anya
 Enter a command (update, display, exit): exit
 ```
+
+To `run tests`, execute the following command:
+
+```zsh
+python3 test.py
+```

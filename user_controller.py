@@ -14,8 +14,9 @@ class UserController:
                 name = self.view.get_input("Enter the new name: ")
                 self.update_user_name(name)
             elif command == "display":
-                self.view.display_user(self.model)
+                self.view.display_info(self.model.get_name())
             elif command == "exit":
                 break
             else:
-                print("Invalid command. Please try again.")
+                self.view.display_error("Invalid command.")
+                break
