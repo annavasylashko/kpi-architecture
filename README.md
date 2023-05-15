@@ -42,12 +42,10 @@ It promotes loose coupling and enables components to communicate through the exc
 
 - Handle Events: When an event is published on the Event Bus, the subscribers' event handlers or callbacks are invoked, allowing them to react to the event.
 
-Example (**`main.py`**)
+Example (**`main.py`**):
 
 ```python
-# Example usage of the Event Bus pattern in Python
-
-from eventbus import EventBus
+from event_bus import EventBus
 
 # Create an instance of the Event Bus
 event_bus = EventBus()
@@ -84,6 +82,11 @@ python3 main.py
 % python3 main.py
 User created: John Doe
 Order placed: 123456
+```
+
+To `run the tests`, execute the following command:
+```zsh
+python3 test.py
 ```
 
 ## When to Use the Event Bus Pattern
