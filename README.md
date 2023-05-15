@@ -57,3 +57,11 @@ Item 1
 Item 2
 Item 3
 ```
+
+To `run the test`, execute the following command:
+
+```zsh
+python3 ./tests/test_layered_architecture.py
+```
+
+The provided test case ensures that the data is correctly retrieved from the data layer, passed to the business logic layer, and displayed in the presentation layer.
