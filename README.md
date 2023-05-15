@@ -33,13 +33,20 @@ The `run_master_slave` function is responsible for coordinating the master-slave
 
 ## Usage
 
-To run the example and see the results, you can execute the following command in the terminal:
+To `run the example` and see the results, you can execute the following command in the terminal:
 
 ```zsh
 python3 main.py
 ```
 
 The script will generate a list of numbers and calculate their squares using the Master-Slave pattern. The calculated squares will be printed as the output.
+
+To `run the tests`, execute the following command:
+
+```zsh
+python3 test.py
+```
+
 
 ## Dependencies
 
